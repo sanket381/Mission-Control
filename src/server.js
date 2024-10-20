@@ -17,7 +17,7 @@ mongoose.connection.once('open', () => {
 
 
 mongoose.connection.on('error', (err) => {
-    console.log(" connect failed err::", err)
+    console.log(" connect failed  err::", err)
 })
 
 async function startServer() {
