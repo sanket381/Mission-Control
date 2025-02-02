@@ -92,7 +92,7 @@ async function abortLaunchByID(launchId){
      upcoming: false,
      success:false
    })
-   console.log("abortLaunchByID:::",aborted)
+  
    return aborted.matchedCount === 1 && aborted.modifiedCount === 1
 
 }
